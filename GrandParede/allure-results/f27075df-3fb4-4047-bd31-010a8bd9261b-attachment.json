@@ -1,0 +1,9 @@
+{
+    "message": "unknown error: Element <button class=\"o-btn o-btn--big\">...</button> is not clickable at point (97, 636). Other element would receive the click: <a href=\"/en-gb/az\">...</a>",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "UnknownError",
+        "message": "An unknown server-side error occurred while processing the command.",
+        "orgStatusMessage": "unknown error: Element <button class=\"o-btn o-btn--big\">...</button> is not clickable at point (97, 636). Other element would receive the click: <a href=\"/en-gb/az\">...</a>\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86)"
+    }
+}

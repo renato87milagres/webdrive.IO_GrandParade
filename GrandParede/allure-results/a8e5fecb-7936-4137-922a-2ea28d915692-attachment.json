@@ -1,0 +1,7 @@
+{
+    "script": "return (function scroll(x, y) {\n    return window.scrollTo(x, y);\n}).apply(null, arguments)",
+    "args": [
+        61.085693359375,
+        292.36175537109375
+    ]
+}

@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//*[contains(@class, \"tile-mobile__border\") and normalize-space() = \"Mayfair Roulette\"]"
+}
