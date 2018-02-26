@@ -1,10 +1,15 @@
 Step 1 - Run the test ;
 
-For run the test you need before install the Webdriver.io;
-after this execute the command c://<yourfolder>/goparede/ npm test;
-Two test was created one for desktop and the second for mobile; all test run in the google chrome;
-the tests is in the folder ./test (login.js)
+For run the test, you need before to install the Webdriver.io;
+after this execute the command c://<yourfolder>/<GrandParede>/ npm test;
+Two test was created
+ 1- for desktop 
+ 2- for mobile; 
+All test run in the google chrome; The tests are in the folder ./test (login.js)
+
 You need have installed the Webdriver.IO Globally and all additional packages globally ($ ./node_modules/.bin/ wdio- v);
+
+The configurations was :
 
 Where do you want to execute your tests? On my local machine
 Which framework do you want to use? mocha
@@ -18,20 +23,21 @@ Level of logging verbosity silent
 In which directory should screenshots gets saved if a command fails? ./errorShots/
 What is the base url? https://vegas.williamhill.com
 
-http://webdriver.io/guide.html
+You can read more here : http://webdriver.io/guide.html
+
 
 Step 2 - Run the Allure :
 
-For to execute the Allure Framework , you need before install the Allure;
-after this execute the command c://<yourfolder> go parede / allure server C://<youfolder>/goparede/allure-results
-to install Allure run the command : npm install wdio-allure-reporter --save-dev
+For to execute the Allure Framework , you need before to install the Allure; (npm install wdio-allure-reporter --save-dev)
+after this execute the command c://<yourfolder>/<GrandParede>/ allure server C://<youfolder>/<GrandParede>/allure-results
 
-change the wdio.config 
+
+If you not installed the Allure, you need to change the wdio.config after the installation
  reporters: ['dot', 'allure'],
     reporterOptions: {
         allure: {
             outputDir: 'allure-results'
         }
     },
-
-http://webdriver.io/guide/reporters/allure.html
+	
+you can read more here : http://webdriver.io/guide/reporters/allure.html
